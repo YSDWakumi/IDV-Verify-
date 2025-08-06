@@ -7,6 +7,9 @@ import os
 from dotenv import load_dotenv
 from datetime import datetime
 import asyncio
+from keep_alive import keep_alive
+
+keep_alive()
 
 load_dotenv()
 TOKEN = "MTQwMjYzODg4MDUyNzc0NTE4OA.Guoi1r.7PQ9n5HPkmPlwv0ndbCrM1IAUlJWTZtQ_xDTNc"
